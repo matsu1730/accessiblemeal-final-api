@@ -30,18 +30,18 @@ public class DatabaseSeed implements CommandLineRunner {
                 "41540600823",
                 "Rua Ararapira, 146",
                 false,
-                "123"
+                "12345"
             )
         ); 
         
         clienteRepository.save( 
             new Cliente(
-                "Amanda Silva",
-                "admin@fiap.com.br",
-                "456.098.654-80",
+                "Ryan Basque",
+                "rm89176@fiap.com.br",
+                "45609865480",
                 "Av Cantareira, 1010",
                 false,
-                "123"
+                "12345"
             )
         ); 
 
@@ -53,7 +53,7 @@ public class DatabaseSeed implements CommandLineRunner {
                 "Av Jabaquara, 1900",
                 true,
                 "[\"auditiva\"]",
-                "123"
+                "12345"
             )
         ); 
 
@@ -61,7 +61,7 @@ public class DatabaseSeed implements CommandLineRunner {
             new Restaurante(
                 "Meals Ltda",
                 "meals@gmail.com",
-                "17.987.765/0001-32",
+                "17987765000132",
                 "Rua Horace Clark, 45",
                 "Deficiência visual",
                 4.5,
@@ -70,7 +70,7 @@ public class DatabaseSeed implements CommandLineRunner {
             new Restaurante(
                 "Cantareira Ltda",
                 "cantareira@gmail.com",
-                "10.876.456/0002-23",
+                "10876456000223",
                 "Rua Orlando de Morais, 1010",
                 "Deficiência mental",
                 3.4,
@@ -79,7 +79,7 @@ public class DatabaseSeed implements CommandLineRunner {
             new Restaurante(
                 "Food True",
                 "food@gmail.com",
-                "54.098.654/0001-67",
+                "54098654000167",
                 "Av Nazaréh, 2456",
                 "Deficiência motora",
                 5.0,
@@ -88,7 +88,7 @@ public class DatabaseSeed implements CommandLineRunner {
             new Restaurante(
                 "Saborosos Pratos Ltda",
                 "saborosos@gmail.com",
-                "87.543.765/0001-43",
+                "87543765000143",
                 "Av Santos Silva, 81",
                 "Deficiência auditiva",
                 3.2,
